@@ -1,4 +1,4 @@
 return {
-  lazy = false,
+  lazy = true,
   'ms-jpq/coq_nvim',
 }
