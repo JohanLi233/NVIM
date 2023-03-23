@@ -32,6 +32,6 @@ return {
     -- replace <tab> with <C-j> for copilot
     -- vim.api.nvim_set_keymap(‘i’, ‘<C-j>’, ‘copilot#Accept(“<CR>”)’, {expr=true, silent=true})
     -- vim.g.copilot_no_tab_map = true
-    ["<C-l>"] = { 'copilot#Accept("<CR>")', expr = true, silent = false, desc = "Copilot Accept" },
+    ["<C-/>"] = { 'copilot#Accept("<CR>")', expr = true, silent = false, desc = "Copilot Accept" },
   }
 }
