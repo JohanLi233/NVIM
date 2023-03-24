@@ -10,7 +10,7 @@ return { -- this table overrides highlights in all themes
       WARN = " ",
       INFO = " ",
       DEBUG = " ",
-      TRACE = " ",
+      TRACE = "* ",
     },
   }),
 }
