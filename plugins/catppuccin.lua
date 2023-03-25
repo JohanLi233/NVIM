@@ -33,10 +33,10 @@ return {
                     overlay0 = "#945e80",
                     surface2 = "#4B4F51",
                     surface1 = "#5A4551",
-                    surface0 = "#DFD6B1",
-                    base = "#fbf1c7",
+                    surface0 = "#fae6f4",
+                    -- base = "#7d9ba2",
                     mantle = "#F3EAC1",
-                    crust = "#E7DEB7",
+                    crust = "#1a1016",
                 },
                 latte = {
                     rosewater = "#c14a4a",
