@@ -24,6 +24,11 @@ return {
     underline = true,
   },
   lsp = {
+    config = {
+      clangd = {
+        capabilities = { offsetEncoding = "utf-16" }
+      },
+    },
     -- customize lsp formatting options
     formatting = {
       -- control auto formatting on save
