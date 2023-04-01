@@ -28,6 +28,11 @@ return {
       clangd = {
         capabilities = { offsetEncoding = "utf-16" }
       },
+      metals = function()
+        return {
+          root_dir = require("lspconfig.util").root_pattern("build.sbt", "build.sc", "build.gradle", "pom.xml"),
+        }
+      end,
     },
     -- customize lsp formatting options
     formatting = {
@@ -52,6 +57,7 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+      "metals",
     },
   },
   -- Configure require("lazy").setup() options
