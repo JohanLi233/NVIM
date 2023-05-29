@@ -64,7 +64,7 @@ return {
             any = {
               { event = "notify" },
               { error = true },
-              { warning = false },
+              { warning = true },
               { event = "msg_show", kind = { "" } },
               { event = "lsp",      kind = "message" },
             },
