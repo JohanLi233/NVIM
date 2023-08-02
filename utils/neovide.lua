@@ -25,7 +25,10 @@ function M.config()
   -- 触控板拖动超时
   -- vim.g.neovide_touch_drag_timeout = 0.17
   -- 开启轨道动画
-  vim.g.neovide_cursor_vfx_mode = "railgun"
+  vim.g.neovide_cursor_vfx_mode = "ripple"
+  vim.g.neovide_cursor_antialiasing = true
+  vim.g.neovide_cursor_animate_in_insert_mode = true
+  vim.g.neovide_cursor_animate_command_line = true
 end
 
 function M.background()
