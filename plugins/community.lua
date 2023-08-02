@@ -20,5 +20,5 @@ return {
   { import = "astrocommunity.editing-support.hypersonic-nvim"},
   {import = "astrocommunity.code-runner.compiler-nvim"},
   -- 
-  { import = "astrocommunity.workflow.hardtime-nvim" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim" },
 }
