@@ -18,4 +18,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.project.project-nvim" },
   { import = "astrocommunity.editing-support.hypersonic-nvim"},
+  {import = "astrocommunity.code-runner.compiler-nvim"},
+  -- 
+  { import = "astrocommunity.workflow.hardtime-nvim" },
 }
