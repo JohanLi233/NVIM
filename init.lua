@@ -1,4 +1,5 @@
 return {
+  require "user.autocmds",
   -- Configure AstroNvim updates
   updater = {
     remote = "origin",     -- remote to use
