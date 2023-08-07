@@ -9,7 +9,7 @@ return {
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  -- { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.editing-support.refactoring-nvim" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
@@ -18,7 +18,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.project.project-nvim" },
   { import = "astrocommunity.editing-support.hypersonic-nvim"},
-  {import = "astrocommunity.code-runner.compiler-nvim"},
-  -- 
+  { import = "astrocommunity.code-runner.compiler-nvim"},
+  { import = "astrocommunity.media.vim-wakatime"},
   -- { import = "astrocommunity.workflow.hardtime-nvim" },
 }
