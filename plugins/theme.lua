@@ -60,8 +60,6 @@ return {
                 cmp = true,
                 mason = true,
                 gitsigns = true,
-                neotree = true,
-                nvimtree = true,
                 treesitter = true,
                 noice = true,
                 notify = true,
