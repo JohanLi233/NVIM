@@ -11,11 +11,11 @@ return {
             color_overrides = {
                 mocha = {
                     rosewater = "#EA6962",
-                    flamingo = "#EA6962",
+                    flamingo = "#EA7962",
                     pink = "#D3869B",
                     mauve = "#D3869B",
-                    red = "#EA6962",
-                    maroon = "#EA6962",
+                    red = "#EA6992",
+                    maroon = "#EA6932",
                     peach = "#fdf1d7",
                     yellow = "#D8B657",
                     green = "#A9B665",
@@ -23,7 +23,7 @@ return {
                     sky = "#89B482",
                     sapphire = "#89B482",
                     blue = "#7DBED3",
-                    lavender = "#7DBED3",
+                    lavender = "#7DCED3",
                     text = "#EAAE88",
                     subtext1 = "#BDAE8B",
                     subtext0 = "#A69372",
